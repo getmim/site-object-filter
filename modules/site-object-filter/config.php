@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'site-object-filter',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/site-object-filter.git',
     '__license' => 'MIT',
     '__author' => [
@@ -36,7 +36,7 @@ return [
     ],
     'routes' => [
         'site' => [
-            'adminObjectFilter' => [
+            'siteObjectFilter' => [
                 'path' => [
                     'value' => '/-/object/filter'
                 ],
